@@ -55,7 +55,7 @@ const Hero = () => {
               <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Auyber Genesini Moura</Typography>
               <Typography color="primary.contrastText" variant="h2" textAlign="center">Desenvolvedor FullStack</Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-                <Grid item xs={12} md={3} display="flex" justifyContent="center">
+                <Grid item xs={12} md={4} display="flex" justifyContent="center">
                   <Button color="secondary" variant="outlined" onClick={handleDownload}>
                     <DownloadIcon />
                     <Typography>

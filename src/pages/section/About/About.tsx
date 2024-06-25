@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography, styled, Grid } from '@mui/material';
+import ActionAreaCard from '../../../components/Card/card';
+
 
 const StyledAboutSection = styled(Box)(({ theme }) => ({
   backgroundColor: '#ffffff',
@@ -18,6 +20,9 @@ const About: React.FC = () => {
             <Typography variant="h2" component="h2">
               Sobre Mim
             </Typography>
+            <Grid>
+            <ActionAreaCard />
+            </Grid>
           </Grid>
           <Grid item xs={12} md={10}>
             <Typography variant="h5" textAlign="justify">
