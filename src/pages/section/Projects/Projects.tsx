@@ -1,6 +1,11 @@
-import {Container, Grid, Typography, styled } from "@mui/material";
+import {Button, Container, Grid, Typography, styled } from "@mui/material";
 import ActionAreaCardNutri from "../../../components/Card/nutri";
 import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+const handlePortifolio = () => {
+  window.open('https://github.com/auyber/Auyber-portifolio', '_blank');
+};
 
 const Projects = () => {
 
@@ -29,7 +34,17 @@ const Projects = () => {
                 <Grid item xs={12} md={6} display="flex" justifyContent="center">
                     <ActionAreaCardfastrevest /> 
                 </Grid>
-            </Grid>   
+            </Grid>
+              <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
+              <Grid item xs={12} md={12} display="flex" justifyContent="center">
+                <Button color="secondary" style={{ width: '150px' }} onClick={handlePortifolio}>
+                    <Typography>
+                        <GitHubIcon />
+                        Código do Portifólio
+                    </Typography>
+                </Button>
+              </Grid>
+            </Grid>
         </Container>
       </StyledHero>
     </>

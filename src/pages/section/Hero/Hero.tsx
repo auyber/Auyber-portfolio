@@ -11,10 +11,10 @@ const Hero = () => {
     height: "150vh",
     display: "flex",
     alignItems: "center",
-    [theme.breakpoints.up('xs')]: { // <= mobile
+    [theme.breakpoints.up('xs')]: { 
       paddingTop: "100px",
     },
-    [theme.breakpoints.up('md')]: { // >=mobile
+    [theme.breakpoints.up('md')]: {
       paddingTop: "0",
     }
   }));
