@@ -1,5 +1,6 @@
 import {Container, Grid, Typography, styled } from "@mui/material";
 import ActionAreaCardNutri from "../../../components/Card/nutri";
+import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
 
 const Projects = () => {
 
@@ -26,15 +27,7 @@ const Projects = () => {
                     <ActionAreaCardNutri /> 
                 </Grid>
                 <Grid item xs={12} md={6} display="flex" justifyContent="center">
-                    <ActionAreaCardNutri /> 
-                </Grid>
-            </Grid>
-            <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-                <Grid item xs={12} md={6} display="flex" justifyContent="center">
-                    <ActionAreaCardNutri /> 
-                </Grid>
-                <Grid item xs={12} md={6} display="flex" justifyContent="center">
-                    <ActionAreaCardNutri /> 
+                    <ActionAreaCardfastrevest /> 
                 </Grid>
             </Grid>   
         </Container>

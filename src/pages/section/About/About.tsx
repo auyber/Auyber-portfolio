@@ -7,14 +7,15 @@ const StyledAboutSection = styled(Box)(({ theme }) => ({
   backgroundColor: '#ffffff',
   padding: theme.spacing(8, 0),
   textAlign: 'center',
-  marginTop: theme.spacing(4), // Adicionando margem superior para espaçamento
+  marginTop: theme.spacing(4), // 
+  
 }));
 
 
 const About: React.FC = () => {
   return (
     <StyledAboutSection>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Grid container direction="column" alignItems="center" spacing={4}>
           <Grid item>
             <Typography variant="h2" component="h2">
@@ -25,7 +26,7 @@ const About: React.FC = () => {
             <ActionAreaCard />
             </Grid>
           </Grid>
-          <Grid item xs={12} md={10}>
+          <Grid item xs={12} md={12}>
             <Typography variant="h5" textAlign="justify">
               Como Operador Logístico em transição para a área da Tecnologia, estou animado para explorar novos horizontes e aplicar minhas habilidades analíticas e organizacionais em um novo campo. Com uma sólida experiência em Logística de Transporte, gerenciamento de tarefas de envio, coordenação de notas fiscais e escolha de modais de transporte, estou pronto para traduzir essas habilidades para o desenvolvimento de sistemas.
               <br/><br/>

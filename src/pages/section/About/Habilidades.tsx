@@ -3,7 +3,7 @@ import { Box, Container, Typography, styled, Grid, Button } from '@mui/material'
 
 
 
-const StyledAboutSection = styled(Box)(({ theme }) => ({
+const StyledHabilidadesSection = styled(Box)(({ theme }) => ({
   backgroundColor: '#ffffff',
   padding: theme.spacing(8, 0),
   textAlign: 'center',
@@ -12,10 +12,10 @@ const StyledAboutSection = styled(Box)(({ theme }) => ({
 }));
 
 
-const About: React.FC = () => {
+const Habilidades: React.FC = () => {
   return (
-    <StyledAboutSection>
-      <Container maxWidth="md">
+    <StyledHabilidadesSection>
+      <Container maxWidth="lg">
         <Grid item>
             <Typography variant="h2" component="h2">
               Habilidades
@@ -110,8 +110,8 @@ const About: React.FC = () => {
             </Grid>            
         </Grid>    
       </Container>
-    </StyledAboutSection>
+    </StyledHabilidadesSection>
   );
 };
 
-export default About;
+export default Habilidades;

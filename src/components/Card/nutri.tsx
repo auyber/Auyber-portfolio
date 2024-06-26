@@ -19,13 +19,14 @@ export default function ActionAreaCardNutri() {
           Joyce Genesini Nutricionista
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="justify">
-          Site criado para a Nutricionista Joyce Genesini, possuindo várias páginas mostrando o serviço oferecido, contato e informações sobre a profissional. Foi inserido um botão flutuante de "Agende sua consulta" nas páginas do site para que o cliente tenha um rápido acesso ao contato da nutricionista, botões interativos na página "Contatos", além de slide automático de fotos na página "Sobre"  <br /><br />
+          Site responsivo criado para a Nutricionista Joyce Genesini, possuindo várias páginas mostrando o serviço oferecido, contato e informações sobre a profissional. Foi inserido um botão flutuante de "Agende sua consulta" nas páginas do site para que o cliente tenha um rápido acesso ao contato da nutricionista, botões interativos na página "Contatos", além de slide automático de fotos na página "Sobre".  <br />
+          Atualizações futuras: mais serviços oferecidos, implementação de um blog<br /><br />
           Tecnologias utilizadas: Html, Css, JavaScript 
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
-        <Button size="small">Ver Site</Button>
-        <Button size="small">Ver Código</Button>
+      <Button size="small" href="https://joycegenesininutri.com.br/" target='_blank'>Ver Site</Button>
+      <Button size="small" href="https://github.com/auyber/joyce_genesini" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );
