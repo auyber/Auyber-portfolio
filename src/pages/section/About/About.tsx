@@ -20,6 +20,7 @@ const About: React.FC = () => {
             <Typography variant="h2" component="h2">
               Sobre Mim
             </Typography>
+            <br />
             <Grid>
             <ActionAreaCard />
             </Grid>

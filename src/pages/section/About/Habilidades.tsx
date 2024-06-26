@@ -7,7 +7,8 @@ const StyledAboutSection = styled(Box)(({ theme }) => ({
   backgroundColor: '#ffffff',
   padding: theme.spacing(8, 0),
   textAlign: 'center',
-  marginTop: theme.spacing(4), // Adicionando margem superior para espaçamento
+  marginTop: theme.spacing(4),
+  
 }));
 
 
@@ -15,12 +16,11 @@ const About: React.FC = () => {
   return (
     <StyledAboutSection>
       <Container maxWidth="md">
-      <Grid item>
+        <Grid item>
             <Typography variant="h2" component="h2">
               Habilidades
             </Typography>
-            <Grid>
-            </Grid>
+            <br />
         </Grid>
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
