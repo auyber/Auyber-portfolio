@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar/NavBar"
 import Hero from "../section/Hero/Hero"
 import About from "../section/About/About"
+import Habilidades from "../section/About/Habilidades"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <NavBar />
       <Hero />
       <About />
+      <Habilidades />
     </>
   )
 }
