@@ -25,7 +25,7 @@ const StyledFooterSection = styled(Box)(({ theme }) => ({
     paddingTop: "1000px",
   },
   [theme.breakpoints.up('md')]: { // >=mobile
-    paddingTop: "0",
+    paddingTop: "100px",
   }
   
 }));

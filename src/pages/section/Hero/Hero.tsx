@@ -8,11 +8,12 @@ const Hero = () => {
 
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
-    height: "200vh",
+    height: "112vh",
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up('xs')]: { 
       paddingTop: "100px",
+
     },
     [theme.breakpoints.up('md')]: {
       paddingTop: "0",
@@ -52,18 +53,18 @@ const Hero = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={7}>
-              <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Auyber Genesini Moura</Typography>
-              <Typography color="primary.contrastText" variant="h2" textAlign="center">Desenvolvedor FullStack</Typography>
+              <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2} sx={{ fontSize: { xs: '1.5rem', md: '4rem', lg: '6rem' } }}>Auyber Genesini Moura</Typography>
+              <Typography color="primary.contrastText" variant="h2" textAlign="center" sx={{ fontSize: { xs: '1.5rem', md: '3rem', lg: '4rem' } }}>Desenvolvedor FullStack</Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-                <Grid item xs={12} md={4} display="flex" justifyContent="center">
+                <Grid item xs={6} md={4} display="flex" justifyContent="center">
                   <Button color="secondary" variant="outlined" onClick={handleDownload}>
                     <DownloadIcon />
-                    <Typography>
+                    <Typography >
                       Baixar CV
                     </Typography>
                   </Button>
                 </Grid>
-                <Grid item xs={12} md={3} display="flex" justifyContent="center">
+                <Grid item xs={6} md={3} display="flex" justifyContent="center">
                   <Button color="secondary" variant="outlined" onClick={handleContact}>
                     <MailOutlineIcon />
                     <Typography>
