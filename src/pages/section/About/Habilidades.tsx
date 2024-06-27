@@ -100,13 +100,6 @@ const Habilidades: React.FC = () => {
                     Sql
                 </Typography>
                 </Button>
-            </Grid>
-            <Grid item xs={4} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
-                <Typography>
-                    NoSql
-                </Typography>
-                </Button>
             </Grid>            
         </Grid>    
       </Container>
