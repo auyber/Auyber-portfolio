@@ -21,8 +21,12 @@ const Projects = () => {
       },
 
     [theme.breakpoints.down('sm')]: {
-    height: "250vh",
+    height: "300vh",
     },
+
+    [theme.breakpoints.down('xs')]: {
+      height: "250vh",
+      },
     
   }));
 
