@@ -8,16 +8,25 @@ const Hero = () => {
 
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
-    height: "112vh",
+    height: "100vh",
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up('xs')]: { 
       paddingTop: "100px",
 
     },
+    
+    [theme.breakpoints.up('xs')]: {
+      paddingBotton: "150px",
+    },
     [theme.breakpoints.up('md')]: {
-      paddingTop: "0",
+      paddingBotton: "50px",
+    },
+    
+    [theme.breakpoints.up('lg')]: { 
+      paddingBotton: "50px",
     }
+
   }));
 
   const StyledImg = styled("img")(() => ({
