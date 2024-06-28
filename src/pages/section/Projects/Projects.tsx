@@ -11,10 +11,19 @@ const Projects = () => {
 
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
-    height: "100vh",
+    height: "150vh",
     display: "flex",
     padding: theme.spacing(8, 0),
     marginTop: theme.spacing(4),
+    
+    [theme.breakpoints.down('md')]: {
+      height: "250vh",
+      },
+
+    [theme.breakpoints.down('sm')]: {
+    height: "250vh",
+    },
+    
   }));
 
 

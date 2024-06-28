@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Typography, styled, Grid, Button } from '@mui/material';
+import { Box, Container, Typography, styled, Grid } from '@mui/material';
 
 
 
@@ -11,6 +11,13 @@ const StyledHabilidadesSection = styled(Box)(({ theme }) => ({
   
 }));
 
+const SkillBox = styled(Box)(({ theme }) => ({
+    width: '150px',
+    border: `1px solid ${theme.palette.primary.main}`,
+    padding: theme.spacing(),
+    textAlign: 'center',
+    borderRadius: theme.shape.borderRadius,
+  }));
 
 const Habilidades: React.FC = () => {
   return (
@@ -24,82 +31,82 @@ const Habilidades: React.FC = () => {
         </Grid>
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     JavaScript
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     TypeScript
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     React
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     Git
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>            
         </Grid>    
       </Container>
       <Container maxWidth="md">
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     Html
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     Css
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
-                    Material Ui
+                    Material UI
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     Figma
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>            
         </Grid>    
       </Container>
       <Container maxWidth="md">
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
                     Python
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
-                <Button color="primary" variant="outlined" style={{ width: '150px' }}>
+                <SkillBox>
                 <Typography>
-                    Sql
+                    SQL
                 </Typography>
-                </Button>
+                </SkillBox>
             </Grid>            
         </Grid>    
       </Container>

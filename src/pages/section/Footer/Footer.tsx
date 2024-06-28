@@ -21,8 +21,8 @@ const StyledFooterSection = styled(Box)(({ theme }) => ({
   padding: theme.spacing(8, 0),
   textAlign: 'center',
   marginTop: theme.spacing(4),
-  [theme.breakpoints.up('xs')]: { // <= mobile
-    paddingTop: "1000px",
+  [theme.breakpoints.up('xs')]: {
+    paddingTop: "20px",
   },
   [theme.breakpoints.up('md')]: { // >=mobile
     paddingTop: "100px",
