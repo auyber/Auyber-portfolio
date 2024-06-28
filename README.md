@@ -1,4 +1,4 @@
-# Meu Portifólio
+# Meu Portfólio
 <br/>
 <a href="http://auybergenesini.com.br" target="_blank">Acesse o Portifólio</a>
 
@@ -7,7 +7,7 @@
 ## Descrição
 
 
-Portifólio criado para mostrar minhas informações de contato, educação e habilidades na área da Tecnologia.
+Portfólio criado para mostrar minhas informações de contato, educação e habilidades na área da Tecnologia.
 
 <br/>
 
