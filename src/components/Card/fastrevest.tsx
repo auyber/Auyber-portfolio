@@ -22,7 +22,7 @@ export default function ActionAreaCardfastrevest() {
         <Typography gutterBottom variant="h5" component="div" textAlign="center">
           Fast Revest Revestimentos
         </Typography>
-        <Typography variant="body2" color="text.secondary" textAlign="justify" sx={{ fontSize: '1.2rem'}}>
+        <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
           Site responsivo criado para a Fastrevest, mostrando tudo sobre o serviço de instalação de capas automotivas e seus benefícios. Há um botão flutuante na página que faz com que seja direcionado para o topo da página, botões de contatos interativos e galeria de fotos do serviço oferecido.   <br />
           Atualizações futuras: botão flutuante nas páginas de "fale conosco" e novo design.<br /><br /><br /><br />
           Tecnologias utilizadas: Html, Css, JavaScript 

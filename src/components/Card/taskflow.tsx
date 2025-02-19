@@ -23,7 +23,7 @@ export default function ActionAreaCardtaskflow() {
       <Typography gutterBottom variant="h5" component="div" textAlign="center">
   TaskFlow - Sistema de Gerenciamento de Tarefas
   </Typography>
-  <Typography variant="body2" color="text.secondary" textAlign="justify" sx={{ fontSize: '1.2rem' }}>
+  <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem' }}>
     O TaskFlow foi criado para o projeto final do CS50 de Harvard. Ele é um sistema de gerenciamento de tarefas baseado na web, desenvolvido para aumentar a produtividade pessoal, ajudando os usuários a organizarem suas tarefas e capturarem ideias rápidas. 
     <br />
     Atualizações futuras: design responsivo para dispositivos móveis, pesquisa e filtros para tarefas, notificações de lembrete e modo escuro.

@@ -22,7 +22,7 @@ export default function ActionAreaCardNutri() {
         <Typography gutterBottom variant="h5" component="div" textAlign="center">
           Joyce Genesini Nutricionista
         </Typography>
-        <Typography variant="body2" color="text.secondary" textAlign="justify" sx={{ fontSize: '1.2rem'}}>
+        <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
           Site responsivo criado para a Nutricionista Joyce Genesini, possuindo várias páginas mostrando o serviço oferecido, contato e informações sobre a profissional. Foi inserido um botão flutuante de "Agende sua consulta" nas páginas do site para que o cliente tenha um rápido acesso ao contato da nutricionista, botões interativos na página "Contatos", além de slide automático de fotos na página "Sobre".  <br />
           Atualizações futuras: mais serviços oferecidos, implementação de um blog<br /><br />
           Tecnologias utilizadas: Html, Css, JavaScript 
