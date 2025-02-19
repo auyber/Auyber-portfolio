@@ -32,7 +32,7 @@ const About: React.FC = () => {
               <br/><br/>
             Trabalhei na criação de <strong>websites</strong> responsivos, utilizando <strong>Figma</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para garantir interfaces intuitivas e dinâmicas. Além disso, desenvolvi este portfólio com <strong>Material UI</strong>, <strong>TypeScript</strong>, <strong>React</strong> e <strong>Vite</strong>, combinando um design moderno com uma estrutura sólida no <strong>back-end</strong>. Outro projeto importante foi o TaskFlow, um gerenciador de tarefas que integra <strong>Python</strong>, <strong>Virtualenv</strong>, <strong>Flask</strong>, <strong>SQLAlchemy</strong> e autenticação de usuários, garantindo segurança, usabilidade e escalabilidade. 
               <br/><br/>
-            Busco constantemente aprimorar minhas habilidades para desenvolver aplicações escaláveis e intuitivas, aplicando uma abordagem analítica para resolver desafios e otimizar processos.
+            Busco constantemente aprimorar minhas habilidades para desenvolver aplicações escaláveis e intuitivas, aplicando uma abordagem analítica para resolver desafios e otimizar processos. Atualmente, estou trilhando a jornada <strong>Fullstack JavaScript</strong> na <strong>OneBitCode</strong> e me aprofundando em <strong>análise de dados</strong> no <strong>Skill+</strong> da <strong>Ada Tech</strong> e <strong>Santander</strong>, no qual fui selecionado entre os <strong>1.000</strong> participantes com melhor desempenho. Essa oportunidade tem sido fundamental para o meu crescimento profissional e contínuo aprimoramento das minhas habilidades técnicas.
             </Typography>
           </Grid>
         </Grid>
