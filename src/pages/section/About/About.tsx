@@ -28,9 +28,11 @@ const About: React.FC = () => {
           </Grid>
           <Grid item xs={12} md={12}>
             <Typography variant="h5" textAlign="justify">
-              Como Operador Logístico em transição para a área da Tecnologia, estou animado para explorar novos horizontes e aplicar minhas habilidades analíticas e organizacionais em um novo campo. Com uma sólida experiência em Logística de Transporte, gerenciamento de tarefas de envio, coordenação de notas fiscais e escolha de modais de transporte, estou pronto para traduzir essas habilidades para o desenvolvimento de sistemas.
+            Durante minha formação em Análise e Desenvolvimento de Sistemas, venho aprimorando minhas habilidades em <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>SQL</strong> e <strong>Python</strong>, desenvolvendo projetos que unem design e funcionalidade.
               <br/><br/>
-              Formado em Logística Aeroportuária pela FATEC Indaiatuba e atualmente cursando Análise e Desenvolvimento de Sistemas, estou comprometido com minha transição de carreira. Meu foco atual está em me especializar como Desenvolvedor Full Stack, e em aprimorar minhas habilidades em análise de dados, visando assim oferecer soluções abrangentes e eficazes no campo da tecnologia.
+            Trabalhei na criação de <strong>websites</strong> responsivos, utilizando <strong>Figma</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para garantir interfaces intuitivas e dinâmicas. Além disso, desenvolvi este portfólio com <strong>Material UI</strong>, <strong>TypeScript</strong>, <strong>React</strong> e <strong>Vite</strong>, combinando um design moderno com uma estrutura sólida no <strong>back-end</strong>. Outro projeto importante foi o TaskFlow, um gerenciador de tarefas que integra <strong>Python</strong>, <strong>Virtualenv</strong>, <strong>Flask</strong>, <strong>SQLAlchemy</strong> e autenticação de usuários, garantindo segurança, usabilidade e escalabilidade. 
+              <br/><br/>
+            Busco constantemente aprimorar minhas habilidades para desenvolver aplicações escaláveis e intuitivas, aplicando uma abordagem analítica para resolver desafios e otimizar processos.
             </Typography>
           </Grid>
         </Grid>

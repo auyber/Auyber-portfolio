@@ -63,7 +63,7 @@ const Hero = () => {
             </Grid>
             <Grid item xs={12} md={7}>
               <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2} sx={{ fontSize: { xs: '1.5rem', md: '4rem', lg: '6rem' } }}>Auyber Genesini Moura</Typography>
-              <Typography color="primary.contrastText" variant="h2" textAlign="center" sx={{ fontSize: { xs: '1.5rem', md: '3rem', lg: '4rem' } }}>Desenvolvedor FullStack</Typography>
+              <Typography color="primary.contrastText" variant="h2" textAlign="center" sx={{ fontSize: { xs: '1.5rem', md: '3rem', lg: '4rem' } }}>Full Stack Developer | Javascript | Python</Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={6} md={4} display="flex" justifyContent="center">
                   <Button color="secondary" variant="outlined" onClick={handleDownload}>

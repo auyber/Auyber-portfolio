@@ -14,8 +14,10 @@ export default function ActionAreaCard() {
             Educação
           </Typography>
           <Typography>
-            Tecnólogo em Análise e Desenvolvimento <br /> de Sistemas. <br />
-            Técnologo em Logística Aeroportuária.
+            Tecnólogo em Análise e Desenvolvimento <br /> de Sistemas <br />
+            CS50 Harvard
+            <br />OneBitCode
+            <br />Ada Skill+
           </Typography>
         </CardContent>
       </CardActionArea>
