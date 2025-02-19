@@ -37,8 +37,8 @@ const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = "/cv.pdf";
-    link.download = "cv.pdf";
+    link.href = "/cvAuyber.pdf";
+    link.download = "cvAuyber.pdf";
     link.click();
   };
 

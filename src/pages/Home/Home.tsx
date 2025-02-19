@@ -12,7 +12,6 @@ const Home = () => {
     <>
       <Hero />
       <About />
-      <Habilidades />
       <Projects />
       <Footer />
     </>

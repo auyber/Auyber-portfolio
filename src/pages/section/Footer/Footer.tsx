@@ -36,29 +36,34 @@ const Footer: React.FC = () => {
     <StyledFooterSection>
       <Container maxWidth="md">
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
+          <Grid item xs={12} display="flex" justifyContent="center">
+            <Typography variant="h6" component="div" style={{ marginBottom: '20px', fontWeight: 'bold', fontSize: '2rem' }}>
+              Entre em contato:
+            </Typography>
+          </Grid>
+        </Grid>
+        <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={6} md={3} display="flex" justifyContent="center">
                 <Button color="primary" style={{ width: '150px' }} onClick={handleGit}>
-                <Typography>
-                    <GitHubIcon />
+                <Typography style={{ fontSize: '3rem' }}>
+                    <GitHubIcon fontSize="inherit" />
                 </Typography>
                 </Button>
             </Grid>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
                 <Button color="primary" style={{ width: '150px' }} onClick={handleLinkedin}>
-                <Typography>
-                    <LinkedInIcon />
+                <Typography style={{ fontSize: '3rem' }}>
+                    <LinkedInIcon fontSize="inherit" />
                 </Typography>
                 </Button>
             </Grid>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
                 <Button color="primary" style={{ width: '150px' }} onClick={handleContact}>
-                <Typography>
-                    <EmailIcon />
+                <Typography style={{ fontSize: '3rem' }}>
+                    <EmailIcon fontSize="inherit" />
                 </Typography>
                 </Button>
             </Grid>
-            <Grid item xs={12} md={4} display="flex" justifyContent="center">
-            </Grid>            
         </Grid>    
       </Container>
       <Container maxWidth="md">
@@ -66,7 +71,7 @@ const Footer: React.FC = () => {
       <Container maxWidth="md">
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} md={12} display="flex" justifyContent="center">
-                <Typography>
+                <Typography style={{ fontSize: '1.5rem' }}>
                 &copy; 2024 Auyber Genesini Moura -  All rights reserved
                 </Typography>
             </Grid>           
@@ -75,5 +80,7 @@ const Footer: React.FC = () => {
     </StyledFooterSection>
   );
 };
+
+
 
 export default Footer;
