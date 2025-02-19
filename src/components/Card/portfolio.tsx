@@ -29,7 +29,7 @@ export default function ActionAreaCardportfolio() {
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
-        <Button size="md" href="https://github.com/auyber/Auyber-portfolio" target='_blank'>Ver Código</Button>
+        <Button size="medium" href="https://github.com/auyber/Auyber-portfolio" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );

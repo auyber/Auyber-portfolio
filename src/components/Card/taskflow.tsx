@@ -32,8 +32,8 @@ export default function ActionAreaCardtaskflow() {
   </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
-      <Button size="md" href="https://www.youtube.com/watch?v=fs7gHobfQZc&t=2s" target='_blank'>Video Demo</Button>
-        <Button size="md" href="https://github.com/auyber/TaskFlow" target='_blank'>Ver Código</Button>
+      <Button size="medium" href="https://www.youtube.com/watch?v=fs7gHobfQZc&t=2s" target='_blank'>Video Demo</Button>
+        <Button size="medium" href="https://github.com/auyber/TaskFlow" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );

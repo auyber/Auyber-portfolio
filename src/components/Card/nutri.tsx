@@ -29,8 +29,8 @@ export default function ActionAreaCardNutri() {
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
-      <Button size="md" href="https://joycegenesininutri.com.br/" target='_blank'>Ver Site</Button>
-      <Button size="md" href="https://github.com/auyber/joyce_genesini" target='_blank'>Ver Código</Button>
+      <Button size="medium" href="https://joycegenesininutri.com.br/" target='_blank'>Ver Site</Button>
+      <Button size="medium" href="https://github.com/auyber/joyce_genesini" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );

@@ -3,7 +3,6 @@ import ActionAreaCardNutri from "../../../components/Card/nutri";
 import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
 import ActionAreaCardPortfolio from "../../../components/Card/portfolio"; // Importe o novo card
 import ActionAreaCardTaskFlow from "../../../components/Card/taskflow"; // Importe o novo card
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 const handlePortifolio = () => {
   window.open('https://github.com/auyber/Auyber-portifolio', '_blank');
