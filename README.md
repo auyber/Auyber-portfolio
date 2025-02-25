@@ -34,8 +34,6 @@ Portfólio criado para mostrar minhas informações de contato, educação e hab
 
 2. Implementar uma NavBar.
 
-3. Ajustar responsividade. 
-
 
 <br/>
 
