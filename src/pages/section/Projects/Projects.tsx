@@ -1,12 +1,8 @@
-import { Button, Container, Grid, Typography, styled } from "@mui/material";
+import { Container, Grid, Typography, styled } from "@mui/material";
 import ActionAreaCardNutri from "../../../components/Card/nutri";
-import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
+import ActionAreaCardliaartfestas from "../../../components/Card/liaartfestas";
 import ActionAreaCardPortfolio from "../../../components/Card/portfolio"; // Importe o novo card
 import ActionAreaCardTaskFlow from "../../../components/Card/taskflow"; // Importe o novo card
-
-const handlePortifolio = () => {
-  window.open('https://github.com/auyber/Auyber-portifolio', '_blank');
-};
 
 const Projects = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -47,7 +43,7 @@ const Projects = () => {
               <ActionAreaCardNutri />
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardfastrevest />
+              <ActionAreaCardliaartfestas />
             </Grid>
           </Grid>
 
@@ -64,9 +60,6 @@ const Projects = () => {
           {/* Botão do portfólio */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} display="flex" justifyContent="center">
-              <Button color="secondary" style={{ width: '150px' }} onClick={handlePortifolio}>
-                Ver Portfólio
-              </Button>
             </Grid>
           </Grid>
         </Container>

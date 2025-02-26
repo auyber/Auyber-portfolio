@@ -23,7 +23,7 @@ export default function ActionAreaCardportfolio() {
           Portifólio
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
-        Portfólio desenvolvido para apresentar minhas informações profissionais, incluindo contato, educação, habilidades e projetos na área da Tecnologia. O site é totalmente responsivo, garantindo uma experiência fluida em diferentes dispositivos.  Entre suas funcionalidades, destacam-se **ícones interativos**, **cards dinâmicos** exibindo projetos, cada um com botões direcionando para o site ou repositório no GitHub.     <br />
+        Portfólio desenvolvido para apresentar minhas informações profissionais, incluindo contato, educação, habilidades e projetos na área da Tecnologia. O site é totalmente responsivo, garantindo uma experiência fluida em diferentes dispositivos.  Entre suas funcionalidades, destacam-se ícones interativos, cards dinâmicos exibindo projetos, cada um com botões direcionando para o site ou repositório no GitHub.     <br />
         <br /><br /><br /><br />
         Tecnologias utilizadas: TypeScript, React, CSS e Vite. 
         </Typography>
