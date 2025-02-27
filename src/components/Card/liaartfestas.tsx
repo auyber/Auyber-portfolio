@@ -28,8 +28,8 @@ export default function ActionAreaCardliaartfestas() {
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
-      <Button size="medium" href="https://www.fastrevestrevestimentos.com.br" target='_blank'>Ver Site</Button>
-        <Button size="medium" href="https://github.com/auyber/fast-revest-capas" target='_blank'>Ver Código</Button>
+      <Button size="medium" href="https://liaartfestas.com.br" target='_blank'>Ver Site</Button>
+        <Button size="medium" href="https://github.com/auyber/Lia.ArtFestas" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );
