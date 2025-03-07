@@ -1,8 +1,9 @@
 import { Container, Grid, Typography, styled } from "@mui/material";
 import ActionAreaCardNutri from "../../../components/Card/nutri";
 import ActionAreaCardliaartfestas from "../../../components/Card/liaartfestas";
-import ActionAreaCardPortfolio from "../../../components/Card/portfolio"; // Importe o novo card
-import ActionAreaCardTaskFlow from "../../../components/Card/taskflow"; // Importe o novo card
+import ActionAreaCardTaskFlow from "../../../components/Card/taskflow";
+import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
+import ActionAreaCardportfolio from "../../../components/Card/portfolio";
 
 const Projects = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -40,20 +41,27 @@ const Projects = () => {
           {/* Primeira linha de cards */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardNutri />
+              <ActionAreaCardfastrevest />
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardliaartfestas />
+              <ActionAreaCardNutri />
             </Grid>
           </Grid>
 
           {/* Segunda linha de cards - Portfolio e TaskFlow */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardPortfolio /> 
+              <ActionAreaCardliaartfestas /> 
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardTaskFlow /> 
+            </Grid>
+          </Grid>
+
+          {/* terceira linha de cards - Fastrevest */}
+          <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
+            <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
+              <ActionAreaCardportfolio /> 
             </Grid>
           </Grid>
 

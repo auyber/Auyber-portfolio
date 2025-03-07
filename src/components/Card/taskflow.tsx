@@ -24,10 +24,10 @@ export default function ActionAreaCardtaskflow() {
   TaskFlow - Sistema de Gerenciamento de Tarefas
   </Typography>
   <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem' }}>
-    O TaskFlow foi criado para o projeto final do CS50 de Harvard. Ele é um sistema de gerenciamento de tarefas baseado na web, desenvolvido para aumentar a produtividade pessoal, ajudando os usuários a organizarem suas tarefas e capturarem ideias rápidas. 
-    <br />
+  O TaskFlow foi desenvolvido como o projeto final do CS50 de Harvard, um sistema de gerenciamento de tarefas baseado na web, com o objetivo de aumentar a produtividade pessoal. Ele permite que os usuários organizem suas tarefas e capturem ideias rapidamente. O sistema conta com telas de login e cadastro de novos usuários, com validações de segurança para garantir que apenas pessoas autorizadas possam acessar e gerenciar suas informações.
+    <br/><br/>
     Atualizações futuras: design responsivo para dispositivos móveis, pesquisa e filtros para tarefas, notificações de lembrete e modo escuro.
-    <br /><br /><br /><br />
+    <br /><br />
     Tecnologias utilizadas: Flask, SQLAlchemy, Python.
   </Typography>
       </CardContent>

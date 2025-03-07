@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import fastrevest from "../../assets/images/fastrevest.jpg";
+import fastrevest from "../../assets/images/fast.png";
 
 export default function ActionAreaCardfastrevest() {
   return (
@@ -23,14 +23,13 @@ export default function ActionAreaCardfastrevest() {
           Fast Revest Revestimentos
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
-          Site responsivo criado para a Fastrevest, mostrando tudo sobre o serviço de instalação de capas automotivas e seus benefícios. Há um botão flutuante na página que faz com que seja direcionado para o topo da página, botões de contatos interativos e galeria de fotos do serviço oferecido.   <br />
-          Atualizações futuras: botão flutuante nas páginas de "fale conosco" e novo design.<br /><br /><br /><br />
-          Tecnologias utilizadas: Html, Css, JavaScript 
+        Desenvolvi um site totalmente responsivo para a Fast Revestimentos, adotando a abordagem mobile-first para garantir uma navegação intuitiva e eficiente em dispositivos móveis e desktops. O layout foi criado no Figma, com um design alinhado à identidade visual da marca. O site conta com um menu fixo, scroll suave, botões interativos e cards animados, além de efeitos dinâmicos com o AOS (Animate On Scroll). Para facilitar o contato, implementei um botão flutuante de WhatsApp e um botão de retorno ao topo. A performance foi otimizada com o uso de JavaScript para atualização do CSS e carregamento dinâmico de imagens. Além disso, melhorei a acessibilidade e o SEO com ARIA e meta tags.<br /><br />
+          Tecnologias utilizadas: HTML5, CSS3, JavaScript, AOS e Figma. 
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>
       <Button size="medium" href="https://www.fastrevestrevestimentos.com.br" target='_blank'>Ver Site</Button>
-        <Button size="medium" href="https://github.com/auyber/fast-revest-capas" target='_blank'>Ver Código</Button>
+        <Button size="medium" href="https://github.com/auyber/Fast-Revest-2.0" target='_blank'>Ver Código</Button>
       </CardActions>
     </Card>
   );
