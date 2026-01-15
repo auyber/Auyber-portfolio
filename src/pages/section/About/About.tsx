@@ -32,7 +32,7 @@ const About: React.FC = () => {
             <br/><br/>
             Trabalhei na criação de <strong>websites responsivos</strong>, utilizando <strong>Figma</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para garantir interfaces intuitivas e dinâmicas. Além disso, desenvolvi meu portfólio com <strong>Material UI</strong>, <strong>TypeScript</strong>, <strong>React</strong> e <strong>Vite</strong>. Outro projeto relevante foi o <strong>TaskFlow</strong>, um gerenciador de tarefas que integra <strong>Python</strong>, <strong>Virtualenv</strong>, <strong>Flask</strong>, <strong>SQLAlchemy</strong> e autenticação de usuários.
             <br/><br/>
-            Busco constantemente aprimorar minhas habilidades para resolver desafios e otimizar processos. Atualmente, estou seguindo a trilha <strong>Fullstack JavaScript</strong> na <strong>OneBitCode</strong>. Também possuo conhecimentos básicos em <strong>Design</strong>, adquiridos por meio de cursos e da criação de artes em uma agência de marketing.
+            Busco constantemente aprimorar minhas habilidades para resolver desafios e otimizar processos. Atualmente, estou seguindo a trilha <strong>Fullstack JavaScript</strong> na <strong>OneBitCode</strong> e cursando as aulas do Curso.dev com o Filipe Deschamps. Também possuo conhecimentos básicos em <strong>Design</strong>, adquiridos por meio de cursos e da criação de artes em uma agência de marketing.
             </Typography>
           </Grid>
         </Grid>
