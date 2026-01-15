@@ -17,7 +17,6 @@ export default function ActionAreaCard() {
             Tecnólogo em Análise e Desenvolvimento <br /> de Sistemas <br />
             CS50 Harvard
             <br />OneBitCode
-            <br />Ada Skill+
           </Typography>
         </CardContent>
       </CardActionArea>
