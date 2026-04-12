@@ -4,6 +4,7 @@ import ActionAreaCardliaartfestas from "../../../components/Card/liaartfestas";
 import ActionAreaCardTaskFlow from "../../../components/Card/taskflow";
 import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
 import ActionAreaCardportfolio from "../../../components/Card/portfolio";
+import ActionAreaCardQAProject from "../../../components/Card/qa-project";
 
 const Projects = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -41,7 +42,7 @@ const Projects = () => {
           {/* Primeira linha de cards */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardfastrevest />
+              <ActionAreaCardQAProject/> 
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardNutri />
@@ -51,15 +52,18 @@ const Projects = () => {
           {/* Segunda linha de cards - Portfolio e TaskFlow */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardliaartfestas /> 
+              <ActionAreaCardfastrevest />
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardTaskFlow /> 
+              <ActionAreaCardliaartfestas /> 
             </Grid>
           </Grid>
 
           {/* terceira linha de cards - Fastrevest */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
+            <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
+              <ActionAreaCardTaskFlow /> 
+            </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardportfolio /> 
             </Grid>

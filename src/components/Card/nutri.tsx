@@ -23,7 +23,7 @@ export default function ActionAreaCardNutri() {
           Joyce Genesini Nutricionista
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
-        Desenvolvi um site totalmente responsivo para a nutricionista Joyce Genesini, estruturado em várias páginas, incluindo Início, Especialidades, Sobre, Blog e Contato. Para otimizar a conversão, implementei diversos CTAs (Call to Action) estrategicamente posicionados, além de um botão flutuante de "Agende sua consulta", garantindo acesso rápido ao contato da nutricionista. O site também conta com slides automáticos utilizando Bootstrap, proporcionando uma experiência dinâmica e envolvente. Além disso, apliquei técnicas de controle de versão no CSS, forçando a atualização do cache nos servidores, e utilizei metatags otimizadas para melhorar o SEO e o desempenho da página.<br/><br />
+        Desenvolvi um site totalmente responsivo para a nutricionista Joyce Genesini, estruturado em várias páginas, incluindo Início, Especialidades, Sobre, Blog e Contato. Para otimizar a conversão, implementei diversos CTAs (Call to Action) estrategicamente posicionados, além de um botão flutuante de "Agende sua consulta", garantindo acesso rápido ao contato da nutricionista. O site também conta com slides automáticos utilizando Bootstrap, proporcionando uma experiência dinâmica e envolvente. Além disso, apliquei técnicas de controle de versão no CSS, forçando a atualização do cache nos servidores, e utilizei metatags otimizadas para melhorar o SEO e o desempenho da página.<br/><br /><br/><br/><br/><br/><br/><br/><br/><br/>
           Tecnologias utilizadas: Html, Css, JavaScript, Bootsrtap e Figma.
         </Typography>
       </CardContent>

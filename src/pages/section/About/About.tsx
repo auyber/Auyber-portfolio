@@ -28,11 +28,15 @@ const About: React.FC = () => {
           </Grid>
           <Grid item xs={12} md={12}>
             <Typography variant="h5" textAlign="left">
-            Atualmente possuo maior domínio em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, porém estou ampliando meus estudos em <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Bootstrap</strong>, <strong>Sass</strong> e <strong>MongoDB</strong>. Durante minha formação em <strong>Análise e Desenvolvimento de Sistemas</strong>, venho adquirindo conhecimentos gerais da área, como banco de dados relacional, computação em nuvem, design de interação, DevOps, engenharia de software, estrutura de dados, desenvolvimento mobile, inteligência artificial, direito cibernético, qualidade de software, <strong>Java</strong> e <strong>Python</strong>.
-            <br/><br/>
-            Trabalhei na criação de <strong>websites responsivos</strong>, utilizando <strong>Figma</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para garantir interfaces intuitivas e dinâmicas. Além disso, desenvolvi meu portfólio com <strong>Material UI</strong>, <strong>TypeScript</strong>, <strong>React</strong> e <strong>Vite</strong>. Outro projeto relevante foi o <strong>TaskFlow</strong>, um gerenciador de tarefas que integra <strong>Python</strong>, <strong>Virtualenv</strong>, <strong>Flask</strong>, <strong>SQLAlchemy</strong> e autenticação de usuários.
-            <br/><br/>
-            Busco constantemente aprimorar minhas habilidades para resolver desafios e otimizar processos. Atualmente, estou seguindo a trilha <strong>Fullstack JavaScript</strong> na <strong>OneBitCode</strong> e cursando as aulas do Curso.dev com o Filipe Deschamps. Também possuo conhecimentos básicos em <strong>Design</strong>, adquiridos por meio de cursos e da criação de artes em uma agência de marketing.
+              Sou <strong>Desenvolvedor Web</strong> com base em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, atualmente em evolução para o <strong>Fullstack JavaScript</strong>. Ao longo dos meus estudos e projetos, desenvolvi aplicações web e interfaces responsivas, adquirindo uma boa compreensão de <strong>estrutura, funcionamento e experiência do usuário</strong>.
+              <br/><br/>
+              Recentemente, passei a direcionar parte dos meus estudos para a área de <strong>Qualidade de Software (QA)</strong>, onde encontrei maior afinidade com <strong>análise de sistemas</strong>, <strong>testes</strong> e <strong>identificação de falhas</strong>. Tenho aplicado <strong>testes manuais</strong>, <strong>testes de API com Postman</strong> e <strong>escrita de cenários em Gherkin</strong> em projetos próprios, buscando desenvolver na prática os conceitos de qualidade de software.
+              <br/><br/>
+              Também estou aprofundando meus conhecimentos em <strong>automação de testes com Playwright</strong>, com o objetivo de ampliar minha visão sobre o desenvolvimento e contribuir para a construção de aplicações mais <strong>robustas</strong> e <strong>confiáveis</strong>.
+              <br/><br/>
+              Além disso, já desenvolvi projetos como <strong>websites responsivos</strong> e aplicações, incluindo o <strong>TaskFlow</strong>, um gerenciador de tarefas com <strong>Python</strong>, <strong>Flask</strong> e <strong>SQLAlchemy</strong>, além deste portfólio utilizando <strong>React</strong>, <strong>TypeScript</strong> e <strong>Vite</strong>.
+              <br/><br/>
+              Tenho facilidade em aprender novas tecnologias e me adaptar a diferentes contextos, buscando sempre evoluir conforme as necessidades do projeto e construir uma carreira sólida na área de tecnologia.
             </Typography>
           </Grid>
         </Grid>

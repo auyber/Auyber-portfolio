@@ -6,7 +6,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 export default function ActionAreaCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 500 }}>
       <CardActionArea>
         <CardContent>
             <SchoolIcon />
@@ -14,9 +14,10 @@ export default function ActionAreaCard() {
             Educação
           </Typography>
           <Typography>
-            Tecnólogo em Análise e Desenvolvimento <br /> de Sistemas <br />
-            CS50 Harvard
-            <br />OneBitCode
+            Análise e Desenvolvimento de Sistemas (em andamento)  <br />
+            QA E2E (Testes, API, Gherkin, Postman) – em andamento
+            <br />Introduction to Software Quality Assurance – Coursera 
+            <br />CS50 Harvard
           </Typography>
         </CardContent>
       </CardActionArea>
