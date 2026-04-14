@@ -21,7 +21,7 @@ export default function ActionAreaCardQAProject() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" textAlign="center">
-        QA Projet
+        QA Auth Lab
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="left" sx={{ fontSize: '1.2rem'}}>
         Projeto desenvolvido com foco em <strong>Qualidade de Software (QA)</strong>, com aplicação prática de <strong>testes manuais</strong> em um sistema de autenticação.<br /><br />
