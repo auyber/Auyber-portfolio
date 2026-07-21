@@ -14,9 +14,7 @@ export default function ActionAreaCard() {
             Educação
           </Typography>
           <Typography>
-            Análise e Desenvolvimento de Sistemas (em andamento)  <br />
-            QA E2E (Testes, API, Gherkin, Postman) – em andamento
-            <br />Introduction to Software Quality Assurance – Coursera 
+            Análise e Desenvolvimento de Sistemas (em andamento) 
             <br />CS50 Harvard
           </Typography>
         </CardContent>

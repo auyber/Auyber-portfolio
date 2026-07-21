@@ -26,6 +26,7 @@ export default function ActionAreaCardportfolio() {
         Portfólio desenvolvido para apresentar minhas informações profissionais, incluindo contato, educação, habilidades e projetos na área da Tecnologia. O site é totalmente responsivo, garantindo uma experiência fluida em diferentes dispositivos.  Entre suas funcionalidades, destacam-se ícones interativos, cards dinâmicos exibindo projetos, cada um com botões direcionando para o site ou repositório no GitHub.     <br />
         <br /><br /><br /><br /><br/><br/><br/>
         Tecnologias utilizadas: TypeScript, React, CSS e Vite. 
+        <br/><br/>
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'center' }}>

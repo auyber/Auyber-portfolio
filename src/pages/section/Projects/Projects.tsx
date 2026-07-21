@@ -1,10 +1,8 @@
 import { Container, Grid, Typography, styled } from "@mui/material";
 import ActionAreaCardNutri from "../../../components/Card/nutri";
 import ActionAreaCardliaartfestas from "../../../components/Card/liaartfestas";
-import ActionAreaCardTaskFlow from "../../../components/Card/taskflow";
 import ActionAreaCardfastrevest from "../../../components/Card/fastrevest";
 import ActionAreaCardportfolio from "../../../components/Card/portfolio";
-import ActionAreaCardQAProject from "../../../components/Card/qa-project";
 
 const Projects = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -42,30 +40,20 @@ const Projects = () => {
           {/* Primeira linha de cards */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardQAProject/> 
+              <ActionAreaCardportfolio/> 
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardNutri />
             </Grid>
           </Grid>
 
-          {/* Segunda linha de cards - Portfolio e TaskFlow */}
+          {/* Segunda linha de cards - FastRevest e LiaArtFestas */}
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardfastrevest />
             </Grid>
             <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
               <ActionAreaCardliaartfestas /> 
-            </Grid>
-          </Grid>
-
-          {/* terceira linha de cards - Fastrevest */}
-          <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-            <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardTaskFlow /> 
-            </Grid>
-            <Grid item xs={12} sm={6} md={6} display="flex" justifyContent="center">
-              <ActionAreaCardportfolio /> 
             </Grid>
           </Grid>
 
