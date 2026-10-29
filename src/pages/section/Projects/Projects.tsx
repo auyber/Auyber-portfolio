@@ -5,6 +5,7 @@ import portfoliocapa from "../../../assets/images/portfoliocapa.png";
 import nutri from "../../../assets/images/nutri.jpg";
 import fast from "../../../assets/images/fast.png";
 import lia from "../../../assets/images/liaartfestas.png";
+import newsbot from "../../../assets/images/newsbot.png";
 
 const Section = styled("section")(({ theme }) => ({
   backgroundColor: codice.bg,
@@ -23,6 +24,14 @@ const projects: Project[] = [
       { label: "↗ VER DOCS", href: "https://raizes-do-nordeste-backend.onrender.com/api/docs" },
       { label: "</> VER CÓDIGO", href: "https://github.com/auyber/raizes-do-nordeste-backend" },
     ],
+  },
+  {
+    title: "Codice News Bot",
+    category: "FULLSTACK · EM DEV",
+    image: newsbot,
+    desc: "Ferramenta em Node.js que monta carrosséis de notícias de tecnologia prontos pro Instagram: busca notícias em feeds RSS, filtra por data, você seleciona 4 (ou deixa a IA sugerir) e ela gera os slides em PNG — capa, notícias e fechamento. Genérica e personalizável com a marca de cada um. Projeto de estudo em desenvolvimento, construído por fases.",
+    stack: ["Node.js", "Express", "Sequelize", "SQLite", "RSS", "Playwright"],
+    links: [{ label: "</> VER CÓDIGO", href: "https://github.com/auyber/codice_news_bot" }],
   },
   {
     title: "Portfólio",
